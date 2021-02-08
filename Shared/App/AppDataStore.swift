@@ -13,7 +13,18 @@ final class AppDataStore: ObservableObject{
     @Published var showFavoritesOnly = false
     @Published var landmarks: [LandMark] = load("landmarkData.json")
     
-//    
+//
+    @Published var profile = Profile.default
+    
+    var features:[LandMark]{
+        landmarks.filter{
+            $0.isFeatured
+        }
+    }
+    
+    var categories:[String:[LandMark]]{
+        Dictionary(grouping: landmarks, by: {$0.category.rawValue})
+    }
 }
 
 

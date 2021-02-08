@@ -22,9 +22,9 @@ struct DemoList: View {
                     DemoCell(demoModel: demo)
                 }
             }
-            .navigationTitle("App Demo List")
+            .navigationTitle("DemoList")
         }
-        .navigationViewStyle(StackNavigationViewStyle())
+//        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 

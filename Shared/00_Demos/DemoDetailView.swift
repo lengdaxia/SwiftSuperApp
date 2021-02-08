@@ -18,8 +18,7 @@ struct DemoDetailView: View {
     func containedView() -> AnyView {
         switch demoModel.name {
         case "LandMarks":
-            
-            return AnyView(CategoryHome())
+            return AnyView(HomeTabView())
         case "Drawing":
             return AnyView(Badge())
         default:

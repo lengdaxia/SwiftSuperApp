@@ -99,6 +99,7 @@
 		18DC133825D12ECD0038C7BA /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 		18DC134225D133AF0038C7BA /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		18DC134825D136590038C7BA /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
+		18DC134E25D13E3C0038C7BA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		18F5476E25D0E203004CF2C7 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		18F5477525D0E25E004CF2C7 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		18F5477F25D0EC30004CF2C7 /* landmarkData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
@@ -155,6 +156,7 @@
 		188DA30625D0D9EA00C9E55A = {
 			isa = PBXGroup;
 			children = (
+				18DC134E25D13E3C0038C7BA /* README.md */,
 				188DA30B25D0D9EA00C9E55A /* Shared */,
 				188DA31825D0D9EC00C9E55A /* iOS */,
 				188DA31F25D0D9EC00C9E55A /* macOS */,

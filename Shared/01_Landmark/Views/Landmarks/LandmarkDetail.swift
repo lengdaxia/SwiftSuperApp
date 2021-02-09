@@ -73,7 +73,7 @@ struct LandmarkDetail: View {
 
 struct LandmarkDetail_Previews: PreviewProvider {
     static var previews: some View {
-        LandmarkDetail(landmark: landmarks[3])
+        LandmarkDetail(landmark: AppDataStore().landmarks[3])
             .environmentObject(AppDataStore())
     }
 }

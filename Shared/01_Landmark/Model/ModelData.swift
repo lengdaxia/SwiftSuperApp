@@ -13,7 +13,7 @@ import Combine
 //    @Published var landmarkDatas = landmarks
 //}
 
-var landmarks: [LandMark] = load("landmarkData.json")
+//var landmarks: [LandMark] = load("landmarkData.json")
 
 func load<T: Decodable>(_ filename: String) -> T {
     

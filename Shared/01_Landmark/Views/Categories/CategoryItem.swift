@@ -28,6 +28,6 @@ struct CategoryItem: View {
 
 struct CategoryItem_Previews: PreviewProvider {
     static var previews: some View {
-        CategoryItem(landMark: landmarks[4])
+        CategoryItem(landMark: AppDataStore().landmarks[4])
     }
 }

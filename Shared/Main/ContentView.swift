@@ -25,9 +25,9 @@ struct ContentView: View {
             .onDelete(perform: deleteItems)
         }
         .toolbar {
-            #if os(iOS)
+        
             EditButton()
-            #endif
+        
 
             Button(action: addItem) {
                 Label("Add Item", systemImage: "plus")

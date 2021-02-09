@@ -8,34 +8,29 @@
 import SwiftUI
 
 struct CategoryHome: View {
+    @EnvironmentObject var appData: AppDataStore
     
-  
-
     var categories: [String: [LandMark]] {
-        Dictionary(
-            grouping: landmarks, by: { $0.category.rawValue}
-        )
+        appData.categories
     }
     
     var featuredLandmarks:[LandMark]{
-        landmarks.filter{ $0.isFeatured}
+        appData.features
     }
     
   
     var body: some View {
             List{
-                FeaturedView(landmarks: featuredLandmarks)
-                    .scaledToFill()
-                    .frame(height: 200)
-                    .clipped()
+                PageView(pages: appData.features.map { FeaturedCard(landmark: $0)})
+                    .aspectRatio(/*@START_MENU_TOKEN@*/1.5/*@END_MENU_TOKEN@*/, contentMode: .fit)
                     .listRowInsets(EdgeInsets())
                 
                 ForEach(categories.keys.sorted(), id: \.self){ key in
                     CategoryRow(categoryName: key, items: self.categories[key]!)
                 }
                 .listRowInsets(EdgeInsets())
-
-            }
+                .listStyle(InsetListStyle())
+                }
             }
 }
 

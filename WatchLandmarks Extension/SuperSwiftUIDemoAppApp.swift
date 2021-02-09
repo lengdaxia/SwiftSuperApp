@@ -13,6 +13,7 @@ struct SuperSwiftUIDemoAppApp: App {
         WindowGroup {
             NavigationView {
                 ContentView()
+                    .environmentObject(AppDataStore())
             }
         }
 

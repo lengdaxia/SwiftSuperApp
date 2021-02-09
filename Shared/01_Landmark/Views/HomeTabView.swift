@@ -46,16 +46,12 @@ struct HomeTabView: View {
                 .tag(Tab.list)
         }
         
-        #if os(iOS)
-
-        #endif
-        
-//        .navigationBarTitle( selection == Tab.featured ? "Featured" : "List")
-//        .navigationBarItems(trailing:selection == Tab.featured ? profileButton : nil)
-//        .sheet(isPresented: $showingProfile){
-//                ProfileHost()
-//                    .environmentObject(self.appData)
-//            }
+        .navigationBarTitle( selection == Tab.featured ? "Featured" : "List")
+        .navigationBarItems(trailing:selection == Tab.featured ? profileButton : nil)
+        .sheet(isPresented: $showingProfile){
+                ProfileHost()
+                    .environmentObject(self.appData)
+            }
         
     
       

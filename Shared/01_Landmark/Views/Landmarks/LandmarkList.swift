@@ -47,7 +47,6 @@ struct LandmarkList: View {
                     }
                 }
             }
-        
     }
 }
 

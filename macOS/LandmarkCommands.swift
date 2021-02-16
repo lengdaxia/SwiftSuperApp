@@ -18,12 +18,14 @@ struct LandmarkCommands: Commands {
             .disabled(selectedLandmark == nil)
         }
     }
+    
 
     var body: some Commands {
         SidebarCommands()
         CommandMenu("Landmark") {
             MenuContent()
         }
+        
     }
 }
 

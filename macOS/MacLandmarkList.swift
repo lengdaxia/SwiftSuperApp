@@ -12,6 +12,7 @@ struct MacLandmarkList: View {
     
     @State private var filter = FilterCategory.all
     @State private var selectedLandmark: LandMark?
+    @State private var showingAddView: Bool = false
     
     enum FilterCategory: String, CaseIterable, Identifiable {
         case all = "All"
@@ -70,6 +71,17 @@ struct MacLandmarkList: View {
                         Label("Filter", systemImage: "slider.horizontal.3")
                     }
                     
+                }
+                
+                ToolbarItem{
+                    
+                    Button(action: {
+                        showingAddView.toggle()
+                    }){
+                        Image(systemName:"plus.app")
+                    }.sheet(isPresented: $showingAddView){
+                        AddLandmarkView(isPresented: $showingAddView)
+                    }
                 }
             }
             Text("Select a Landmark")

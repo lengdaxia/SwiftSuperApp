@@ -12,11 +12,11 @@ struct ProfileSummary: View {
     var profile : Profile
     
     var body: some View {
-        ScrollView{
+        ScrollView(showsIndicators: false){
             VStack(alignment: .leading, spacing: 10){
                 Text(profile.username)
                     .bold()
-                    .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                    .font(.title)
                 
                 Text("Notification: \(profile.prefersNotifications ? "On" : "Off") ")
                 
@@ -25,7 +25,30 @@ struct ProfileSummary: View {
                 Text("Goal Date: ") + Text(profile.goalDate,style: .date)
                 
                 Divider()
+                VStack(alignment: .leading){
+                    Text("Completd Badges")
+                        .font(.headline)
+                    
+                    ScrollView{
+                        HStack{
+                            HikeBadge(name: "First Hike")
+                            HikeBadge(name: "Earth Day")
+                                .hueRotation(Angle(degrees: 90))
+                            HikeBadge(name: "Tenth Hike")
+                                .grayscale(0.5)
+                                .hueRotation(Angle(degrees: 45))
+                        }.padding(.bottom)
+                    }
+                }
                 
+                Divider()
+                
+                VStack(alignment: .leading){
+                    Text("Recent Hikes")
+                        .font(.headline)
+                    
+                    HikeView(hike: appData.hikes[0]).padding()
+                }
                 
             }
             .padding()

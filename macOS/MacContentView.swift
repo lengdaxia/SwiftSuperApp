@@ -11,6 +11,7 @@ struct MacContentView: View {
     var body: some View {
         MacLandmarkList()
             .frame(minWidth: 700, minHeight: 300)
+            
     }
 }
 

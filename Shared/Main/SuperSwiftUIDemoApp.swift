@@ -15,8 +15,10 @@ struct SuperSwiftUIDemoApp: App {
 
     @State var appDataStore = AppDataStore()
     
+    #if os(macOS)
     @NSApplicationDelegateAdaptor(MacAppDelegate.self) var macAppDelegate
-
+    #endif
+    
     var body: some Scene {
         
             #if os(macOS)
@@ -82,7 +84,7 @@ struct SuperSwiftUIDemoApp: App {
 }
 
 
-
+#if os(macOS)
 class MacAppDelegate: NSObject, NSApplicationDelegate {
     
     var statusBarItem: NSStatusItem!
@@ -139,3 +141,5 @@ class MacAppDelegate: NSObject, NSApplicationDelegate {
         }
     }
 }
+
+#endif

@@ -12,6 +12,9 @@ struct DemoList: View {
     var demoList: [DemoModel] = [
         DemoModel.init(name: "LandMarks", description: "LandMarks App"),
         DemoModel.init(name: "Drawing", description: "Drawing Paths and Shapes"),
+        DemoModel.init(name: "SwiftUIGallery", description: "SwiftUIGallery List and demos"),
+        DemoModel.init(name: "ScrumdingerApp", description: "Scrumdinger App"),
+
         DemoModel.init(name: "Playground", description: "Playground"),
     ]
     

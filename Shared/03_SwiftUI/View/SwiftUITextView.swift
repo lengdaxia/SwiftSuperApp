@@ -65,12 +65,19 @@ struct SwiftUITextView: View {
                 Text(Date().addingTimeInterval(60),style: .offset)
 
                 Text(Date().addingTimeInterval(60),style: .time)
-
+                
+                VStack(alignment: .leading) {
+                         Text("ABCDEF").kerning(-3)
+                         Text("ABCDEF")
+                         Text("ABCDEF").kerning(3)
+                }
+                VStack(alignment: .leading) {
+                         Text("ABCDEF").tracking(-3)
+                         Text("ABCDEF")
+                         Text("ABCDEF").tracking(3)
+                     }
             }
-            
-            
-            
-        }
+        }.navigationTitle("Text")
     }
 }
 

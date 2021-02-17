@@ -34,6 +34,29 @@
 		18386B3D25D2311D00E514ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188DA31125D0D9EC00C9E55A /* Assets.xcassets */; };
 		18386B4425D231CD00E514ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188DA31125D0D9EC00C9E55A /* Assets.xcassets */; };
 		18386B5125D2323800E514ED /* AppDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F547F925D11B8E004CF2C7 /* AppDataStore.swift */; };
+		185EFAFE25DCAA01000DDB98 /* SwiftUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185EFAFD25DCAA01000DDB98 /* SwiftUIImageView.swift */; };
+		185EFB0E25DCB297000DDB98 /* SwiftUIViewGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185EFB0D25DCB297000DDB98 /* SwiftUIViewGallery.swift */; };
+		185EFB0F25DCB297000DDB98 /* SwiftUIViewGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185EFB0D25DCB297000DDB98 /* SwiftUIViewGallery.swift */; };
+		185EFB2125DCC698000DDB98 /* TextEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185EFB2025DCC698000DDB98 /* TextEditorView.swift */; };
+		185EFB2225DCC698000DDB98 /* TextEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185EFB2025DCC698000DDB98 /* TextEditorView.swift */; };
+		185EFB3525DCCCD2000DDB98 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185EFB3425DCCCD2000DDB98 /* ImageView.swift */; };
+		185EFB3625DCCCD2000DDB98 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185EFB3425DCCCD2000DDB98 /* ImageView.swift */; };
+		185EFB3D25DCCCE2000DDB98 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185EFB3C25DCCCE2000DDB98 /* ShapeView.swift */; };
+		185EFB3E25DCCCE2000DDB98 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185EFB3C25DCCCE2000DDB98 /* ShapeView.swift */; };
+		185EFB4525DCCD0F000DDB98 /* ProgressViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185EFB4425DCCD0F000DDB98 /* ProgressViews.swift */; };
+		185EFB4625DCCD0F000DDB98 /* ProgressViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185EFB4425DCCD0F000DDB98 /* ProgressViews.swift */; };
+		185EFB5F25DCCDBD000DDB98 /* MapViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185EFB5E25DCCDBD000DDB98 /* MapViews.swift */; };
+		185EFB6025DCCDBD000DDB98 /* MapViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185EFB5E25DCCDBD000DDB98 /* MapViews.swift */; };
+		185EFB6E25DCF87D000DDB98 /* ScrumpMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185EFB6D25DCF87D000DDB98 /* ScrumpMain.swift */; };
+		185EFB7625DCFB03000DDB98 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185EFB7525DCFB03000DDB98 /* DailyScrum.swift */; };
+		185EFB7D25DCFB80000DDB98 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185EFB7C25DCFB80000DDB98 /* CardView.swift */; };
+		185EFB8525DCFF4D000DDB98 /* Color+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185EFB8425DCFF4D000DDB98 /* Color+Codable.swift */; };
+		185EFB8C25DCFFE7000DDB98 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185EFB8B25DCFFE7000DDB98 /* MeetingView.swift */; };
+		185EFB9325DD032B000DDB98 /* ScrumDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185EFB9225DD032B000DDB98 /* ScrumDetailView.swift */; };
+		185EFB9C25DD076D000DDB98 /* ScrumEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185EFB9B25DD076D000DDB98 /* ScrumEditView.swift */; };
+		185EFBAB25DD1222000DDB98 /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185EFBA925DD1222000DDB98 /* AVPlayer+Ding.swift */; };
+		185EFBAC25DD1222000DDB98 /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185EFBAA25DD1222000DDB98 /* ScrumTimer.swift */; };
+		185EFBB325DD122D000DDB98 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 185EFBB225DD122D000DDB98 /* ding.wav */; };
 		1862833825DBAE8900FDFA36 /* AddLandmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1862833725DBAE8900FDFA36 /* AddLandmarkView.swift */; };
 		18821DB225D4D6B2007DE410 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18821DB125D4D6B2007DE410 /* Hike.swift */; };
 		18821DB325D4D6B2007DE410 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18821DB125D4D6B2007DE410 /* Hike.swift */; };
@@ -198,6 +221,23 @@
 		18386AEE25D21F8B00E514ED /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		18386AF625D21F9500E514ED /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 		18386B1B25D226AA00E514ED /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		185EFAFD25DCAA01000DDB98 /* SwiftUIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIImageView.swift; sourceTree = "<group>"; };
+		185EFB0D25DCB297000DDB98 /* SwiftUIViewGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewGallery.swift; sourceTree = "<group>"; };
+		185EFB2025DCC698000DDB98 /* TextEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorView.swift; sourceTree = "<group>"; };
+		185EFB3425DCCCD2000DDB98 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		185EFB3C25DCCCE2000DDB98 /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
+		185EFB4425DCCD0F000DDB98 /* ProgressViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViews.swift; sourceTree = "<group>"; };
+		185EFB5E25DCCDBD000DDB98 /* MapViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViews.swift; sourceTree = "<group>"; };
+		185EFB6D25DCF87D000DDB98 /* ScrumpMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumpMain.swift; sourceTree = "<group>"; };
+		185EFB7525DCFB03000DDB98 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		185EFB7C25DCFB80000DDB98 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		185EFB8425DCFF4D000DDB98 /* Color+Codable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Codable.swift"; sourceTree = "<group>"; };
+		185EFB8B25DCFFE7000DDB98 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
+		185EFB9225DD032B000DDB98 /* ScrumDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumDetailView.swift; sourceTree = "<group>"; };
+		185EFB9B25DD076D000DDB98 /* ScrumEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumEditView.swift; sourceTree = "<group>"; };
+		185EFBA925DD1222000DDB98 /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
+		185EFBAA25DD1222000DDB98 /* ScrumTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
+		185EFBB225DD122D000DDB98 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
 		1862833725DBAE8900FDFA36 /* AddLandmarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLandmarkView.swift; sourceTree = "<group>"; };
 		18821DB125D4D6B2007DE410 /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
 		18821DBA25D4D787007DE410 /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
@@ -319,6 +359,70 @@
 			path = PageView;
 			sourceTree = "<group>";
 		};
+		185EFB1F25DCC678000DDB98 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				181BB59125D528B200CED81B /* ColorPickerView.swift */,
+				18C8B2B625D511980089A137 /* SwiftUITextView.swift */,
+				181BB58325D5172400CED81B /* SwiftUILabelView.swift */,
+				181BB57A25D514C300CED81B /* SwiftUIButtonView.swift */,
+				185EFAFD25DCAA01000DDB98 /* SwiftUIImageView.swift */,
+				185EFB2025DCC698000DDB98 /* TextEditorView.swift */,
+				185EFB3425DCCCD2000DDB98 /* ImageView.swift */,
+				185EFB3C25DCCCE2000DDB98 /* ShapeView.swift */,
+				185EFB4425DCCD0F000DDB98 /* ProgressViews.swift */,
+				185EFB5E25DCCDBD000DDB98 /* MapViews.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		185EFB2D25DCC744000DDB98 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		185EFB2E25DCC74C000DDB98 /* Container */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Container;
+			sourceTree = "<group>";
+		};
+		185EFB6625DCF7B1000DDB98 /* 04_Scrumdinger */ = {
+			isa = PBXGroup;
+			children = (
+				185EFB7425DCFAEC000DDB98 /* Model */,
+				185EFB6C25DCF866000DDB98 /* View */,
+			);
+			path = 04_Scrumdinger;
+			sourceTree = "<group>";
+		};
+		185EFB6C25DCF866000DDB98 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				185EFB6D25DCF87D000DDB98 /* ScrumpMain.swift */,
+				185EFB7C25DCFB80000DDB98 /* CardView.swift */,
+				185EFB9225DD032B000DDB98 /* ScrumDetailView.swift */,
+				185EFB9B25DD076D000DDB98 /* ScrumEditView.swift */,
+				185EFB8B25DCFFE7000DDB98 /* MeetingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		185EFB7425DCFAEC000DDB98 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				185EFB8425DCFF4D000DDB98 /* Color+Codable.swift */,
+				185EFB7525DCFB03000DDB98 /* DailyScrum.swift */,
+				185EFBA925DD1222000DDB98 /* AVPlayer+Ding.swift */,
+				185EFBAA25DD1222000DDB98 /* ScrumTimer.swift */,
+				185EFBB225DD122D000DDB98 /* ding.wav */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		18821DB025D4D684007DE410 /* Hikes */ = {
 			isa = PBXGroup;
 			children = (
@@ -354,6 +458,7 @@
 				188DA36625D0E07C00C9E55A /* 01_Landmark */,
 				18F5481D25D11FDD004CF2C7 /* 02_DrawingPath */,
 				18C8B2B525D5114D0089A137 /* 03_SwiftUI */,
+				185EFB6625DCF7B1000DDB98 /* 04_Scrumdinger */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -461,10 +566,10 @@
 		18C8B2B525D5114D0089A137 /* 03_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				18C8B2B625D511980089A137 /* SwiftUITextView.swift */,
-				181BB58325D5172400CED81B /* SwiftUILabelView.swift */,
-				181BB57A25D514C300CED81B /* SwiftUIButtonView.swift */,
-				181BB59125D528B200CED81B /* ColorPickerView.swift */,
+				185EFB0D25DCB297000DDB98 /* SwiftUIViewGallery.swift */,
+				185EFB1F25DCC678000DDB98 /* View */,
+				185EFB2D25DCC744000DDB98 /* Layout */,
+				185EFB2E25DCC74C000DDB98 /* Container */,
 			);
 			path = 03_SwiftUI;
 			sourceTree = "<group>";
@@ -725,6 +830,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				185EFBB325DD122D000DDB98 /* ding.wav in Resources */,
 				18821DBB25D4D787007DE410 /* hikeData.json in Resources */,
 				188DA34025D0D9EC00C9E55A /* Assets.xcassets in Resources */,
 				18F5478025D0EC30004CF2C7 /* landmarkData.json in Resources */,
@@ -782,31 +888,45 @@
 			buildActionMask = 2147483647;
 			files = (
 				18821DB225D4D6B2007DE410 /* Hike.swift in Sources */,
+				185EFB9C25DD076D000DDB98 /* ScrumEditView.swift in Sources */,
 				18821DCD25D4D8D9007DE410 /* HikeGraph.swift in Sources */,
 				188DA33A25D0D9EC00C9E55A /* SuperSwiftUIDemoApp.swift in Sources */,
 				181BB58425D5172400CED81B /* SwiftUILabelView.swift in Sources */,
+				185EFB7625DCFB03000DDB98 /* DailyScrum.swift in Sources */,
+				185EFB4525DCCD0F000DDB98 /* ProgressViews.swift in Sources */,
 				18C8B2B725D511980089A137 /* SwiftUITextView.swift in Sources */,
 				18F547D825D10620004CF2C7 /* DemoList.swift in Sources */,
+				185EFB3D25DCCCE2000DDB98 /* ShapeView.swift in Sources */,
 				18C7CE1825D185D900D6A7B7 /* ProfileSummary.swift in Sources */,
 				18C7CDB125D14E1A00D6A7B7 /* HomeTabView.swift in Sources */,
 				18F547FA25D11B8E004CF2C7 /* AppDataStore.swift in Sources */,
 				18821DE425D4E9DE007DE410 /* HikeDetail.swift in Sources */,
+				185EFB6E25DCF87D000DDB98 /* ScrumpMain.swift in Sources */,
+				185EFAFE25DCAA01000DDB98 /* SwiftUIImageView.swift in Sources */,
 				18F7E44425D2474200A3A06B /* LandmarkCommands.swift in Sources */,
+				185EFB9325DD032B000DDB98 /* ScrumDetailView.swift in Sources */,
 				18C7CDEC25D1545B00D6A7B7 /* LandmarkDetail.swift in Sources */,
 				18C7CE0225D17DD500D6A7B7 /* ProfileHost.swift in Sources */,
+				185EFB0E25DCB297000DDB98 /* SwiftUIViewGallery.swift in Sources */,
+				185EFB5F25DCCDBD000DDB98 /* MapViews.swift in Sources */,
 				181BB57B25D514C300CED81B /* SwiftUIButtonView.swift in Sources */,
+				185EFB2125DCC698000DDB98 /* TextEditorView.swift in Sources */,
 				18F5483D25D12176004CF2C7 /* BadgeBackground.swift in Sources */,
 				18386AF725D21F9500E514ED /* PageControl.swift in Sources */,
 				18DC133925D12ECD0038C7BA /* CategoryHome.swift in Sources */,
 				18F7E44C25D2491900A3A06B /* FavoriteButton.swift in Sources */,
 				18F547DF25D10AFC004CF2C7 /* DemoDetailView.swift in Sources */,
+				185EFBAC25DD1222000DDB98 /* ScrumTimer.swift in Sources */,
+				185EFB8C25DCFFE7000DDB98 /* MeetingView.swift in Sources */,
 				18386AE725D2193F00E514ED /* FeaturedCard.swift in Sources */,
+				185EFBAB25DD1222000DDB98 /* AVPlayer+Ding.swift in Sources */,
 				18DC134325D133AF0038C7BA /* CategoryRow.swift in Sources */,
 				18F5482825D12107004CF2C7 /* HexagonParameters.swift in Sources */,
 				18F5477625D0E25E004CF2C7 /* MapView.swift in Sources */,
 				18C7CE1F25D188D100D6A7B7 /* ProfileEditor.swift in Sources */,
 				18386AEF25D21F8B00E514ED /* PageViewController.swift in Sources */,
 				18821DC425D4D7F2007DE410 /* GraphCapsule.swift in Sources */,
+				185EFB8525DCFF4D000DDB98 /* Color+Codable.swift in Sources */,
 				18F5484425D1219F004CF2C7 /* Badge.swift in Sources */,
 				18821DF125D501C9007DE410 /* HikeBadge.swift in Sources */,
 				18DC134925D136590038C7BA /* CategoryItem.swift in Sources */,
@@ -820,6 +940,8 @@
 				18386ADF25D2193000E514ED /* PageView.swift in Sources */,
 				18C7CDEA25D1545B00D6A7B7 /* LandmarkList.swift in Sources */,
 				18F5479225D0EC5A004CF2C7 /* Landmark.swift in Sources */,
+				185EFB7D25DCFB80000DDB98 /* CardView.swift in Sources */,
+				185EFB3525DCCCD2000DDB98 /* ImageView.swift in Sources */,
 				18F7E47C25D27C0500A3A06B /* LandmarkWidget.intentdefinition in Sources */,
 				18C7CE1125D17FBF00D6A7B7 /* Profile.swift in Sources */,
 				18F5483625D12142004CF2C7 /* RotatedBadgeSymbol.swift in Sources */,
@@ -835,6 +957,7 @@
 				18821DCE25D4D8D9007DE410 /* HikeGraph.swift in Sources */,
 				18F7E44D25D2491900A3A06B /* FavoriteButton.swift in Sources */,
 				181BB58525D5172400CED81B /* SwiftUILabelView.swift in Sources */,
+				185EFB0F25DCB297000DDB98 /* SwiftUIViewGallery.swift in Sources */,
 				18F5479325D0EC5A004CF2C7 /* Landmark.swift in Sources */,
 				18F547FB25D11B8E004CF2C7 /* AppDataStore.swift in Sources */,
 				18F7E3FD25D23E8100A3A06B /* LandmarkSettings.swift in Sources */,
@@ -842,9 +965,11 @@
 				18F5483E25D12176004CF2C7 /* BadgeBackground.swift in Sources */,
 				18F5482925D12107004CF2C7 /* HexagonParameters.swift in Sources */,
 				18821DDC25D4E535007DE410 /* HikeView.swift in Sources */,
+				185EFB3E25DCCCE2000DDB98 /* ShapeView.swift in Sources */,
 				181BB59325D528B200CED81B /* ColorPickerView.swift in Sources */,
 				18F5477725D0E25E004CF2C7 /* MapView.swift in Sources */,
 				18F7E40B25D23EB400A3A06B /* LandmarkDetail.swift in Sources */,
+				185EFB3625DCCCD2000DDB98 /* ImageView.swift in Sources */,
 				18821DB325D4D6B2007DE410 /* Hike.swift in Sources */,
 				18F7E42B25D2423B00A3A06B /* MacLandmarkList.swift in Sources */,
 				18F5484525D1219F004CF2C7 /* Badge.swift in Sources */,
@@ -852,13 +977,16 @@
 				18C7CDEF25D1545B00D6A7B7 /* LandmarkRow.swift in Sources */,
 				181BB57325D513FB00CED81B /* SwiftUITextView.swift in Sources */,
 				181BB57C25D514C300CED81B /* SwiftUIButtonView.swift in Sources */,
+				185EFB2225DCC698000DDB98 /* TextEditorView.swift in Sources */,
 				18F5478C25D0EC4A004CF2C7 /* ModelData.swift in Sources */,
 				18F5483025D1213B004CF2C7 /* BadgeSymbol.swift in Sources */,
 				18F5477025D0E203004CF2C7 /* CircleImage.swift in Sources */,
 				1862833825DBAE8900FDFA36 /* AddLandmarkView.swift in Sources */,
+				185EFB6025DCCDBD000DDB98 /* MapViews.swift in Sources */,
 				18F5483725D12142004CF2C7 /* RotatedBadgeSymbol.swift in Sources */,
 				18821DF225D501C9007DE410 /* HikeBadge.swift in Sources */,
 				18C7CE1225D17FBF00D6A7B7 /* Profile.swift in Sources */,
+				185EFB4625DCCD0F000DDB98 /* ProgressViews.swift in Sources */,
 				18821DC525D4D7F2007DE410 /* GraphCapsule.swift in Sources */,
 				18821DE525D4E9DE007DE410 /* HikeDetail.swift in Sources */,
 			);

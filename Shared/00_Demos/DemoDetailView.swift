@@ -9,6 +9,8 @@ import SwiftUI
 
 struct DemoDetailView: View {
     var demoModel: DemoModel
+    @State private var models = DailyScrum.data
+    
     var body: some View {
         VStack{
             containedView()
@@ -21,6 +23,10 @@ struct DemoDetailView: View {
             return AnyView(HomeTabView())
         case "Drawing":
             return AnyView(Badge())
+        case "SwiftUIGallery":
+            return AnyView(SwiftUIViewGallery())
+        case "ScrumdingerApp":
+            return AnyView(ScrumpMain(models: $models))
         default:
             return AnyView(Text("Not found yet"))
         

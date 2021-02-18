@@ -12,17 +12,22 @@ struct ImageView1: View {
         Image(systemName:"cloud.heavyrain.fill")
     }
 }
+
 struct SwiftUIImageView: View {
     var body: some View {
         
         VStack{
-            Image("twinlake")
-            ProgressView("Text", value: 10, total: 100)
-
             
-//            NavigationLink(destination: ){
-//
-//            }
+            Image("twinlake")
+                .clipShape(Circle())
+                .overlay(Circle().stroke(Color.white, lineWidth: 4))
+                .shadow(radius:7)
+                .blur(radius: 1)
+            
+                
+            
+            
+//            ProgressView("Text", value: 10, total: 100)
         }
     }
 }

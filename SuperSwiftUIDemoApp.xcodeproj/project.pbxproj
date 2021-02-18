@@ -58,6 +58,15 @@
 		185EFBAC25DD1222000DDB98 /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185EFBAA25DD1222000DDB98 /* ScrumTimer.swift */; };
 		185EFBB325DD122D000DDB98 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 185EFBB225DD122D000DDB98 /* ding.wav */; };
 		1862833825DBAE8900FDFA36 /* AddLandmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1862833725DBAE8900FDFA36 /* AddLandmarkView.swift */; };
+		186DCF9F25DE60EF0012E0CE /* SuperSwiftUIDemoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 188DA30C25D0D9EA00C9E55A /* SuperSwiftUIDemoApp.xcdatamodeld */; };
+		186DCFB025DE61450012E0CE /* Account+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DCFAA25DE61450012E0CE /* Account+CoreDataClass.swift */; };
+		186DCFB125DE61450012E0CE /* Account+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DCFAB25DE61450012E0CE /* Account+CoreDataProperties.swift */; };
+		186DCFB225DE61450012E0CE /* Class+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DCFAC25DE61450012E0CE /* Class+CoreDataClass.swift */; };
+		186DCFB325DE61450012E0CE /* Class+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DCFAD25DE61450012E0CE /* Class+CoreDataProperties.swift */; };
+		186DCFB425DE61450012E0CE /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DCFAE25DE61450012E0CE /* User+CoreDataClass.swift */; };
+		186DCFB525DE61450012E0CE /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DCFAF25DE61450012E0CE /* User+CoreDataProperties.swift */; };
+		186DCFBD25DE68290012E0CE /* CoreDataMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DCFBC25DE68290012E0CE /* CoreDataMainView.swift */; };
+		186DCFBE25DE68290012E0CE /* CoreDataMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DCFBC25DE68290012E0CE /* CoreDataMainView.swift */; };
 		18821DB225D4D6B2007DE410 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18821DB125D4D6B2007DE410 /* Hike.swift */; };
 		18821DB325D4D6B2007DE410 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18821DB125D4D6B2007DE410 /* Hike.swift */; };
 		18821DB425D4D6B2007DE410 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18821DB125D4D6B2007DE410 /* Hike.swift */; };
@@ -239,6 +248,14 @@
 		185EFBAA25DD1222000DDB98 /* ScrumTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
 		185EFBB225DD122D000DDB98 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
 		1862833725DBAE8900FDFA36 /* AddLandmarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLandmarkView.swift; sourceTree = "<group>"; };
+		186DCF9E25DE60380012E0CE /* coredata_v2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = coredata_v2.xcdatamodel; sourceTree = "<group>"; };
+		186DCFAA25DE61450012E0CE /* Account+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Account+CoreDataClass.swift"; sourceTree = "<group>"; };
+		186DCFAB25DE61450012E0CE /* Account+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Account+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		186DCFAC25DE61450012E0CE /* Class+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Class+CoreDataClass.swift"; sourceTree = "<group>"; };
+		186DCFAD25DE61450012E0CE /* Class+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Class+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		186DCFAE25DE61450012E0CE /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		186DCFAF25DE61450012E0CE /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		186DCFBC25DE68290012E0CE /* CoreDataMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataMainView.swift; sourceTree = "<group>"; };
 		18821DB125D4D6B2007DE410 /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
 		18821DBA25D4D787007DE410 /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
 		18821DC325D4D7F2007DE410 /* GraphCapsule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphCapsule.swift; sourceTree = "<group>"; };
@@ -423,6 +440,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		186DCFBB25DE68080012E0CE /* 05_CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				186DCFBC25DE68290012E0CE /* CoreDataMainView.swift */,
+			);
+			path = 05_CoreData;
+			sourceTree = "<group>";
+		};
 		18821DB025D4D684007DE410 /* Hikes */ = {
 			isa = PBXGroup;
 			children = (
@@ -437,6 +462,12 @@
 		188DA30625D0D9EA00C9E55A = {
 			isa = PBXGroup;
 			children = (
+				186DCFAA25DE61450012E0CE /* Account+CoreDataClass.swift */,
+				186DCFAB25DE61450012E0CE /* Account+CoreDataProperties.swift */,
+				186DCFAC25DE61450012E0CE /* Class+CoreDataClass.swift */,
+				186DCFAD25DE61450012E0CE /* Class+CoreDataProperties.swift */,
+				186DCFAE25DE61450012E0CE /* User+CoreDataClass.swift */,
+				186DCFAF25DE61450012E0CE /* User+CoreDataProperties.swift */,
 				18C8B2AF25D50F260089A137 /* SuperSwiftUIDemoApp.entitlements */,
 				18DC134E25D13E3C0038C7BA /* README.md */,
 				188DA30B25D0D9EA00C9E55A /* Shared */,
@@ -459,6 +490,7 @@
 				18F5481D25D11FDD004CF2C7 /* 02_DrawingPath */,
 				18C8B2B525D5114D0089A137 /* 03_SwiftUI */,
 				185EFB6625DCF7B1000DDB98 /* 04_Scrumdinger */,
+				186DCFBB25DE68080012E0CE /* 05_CoreData */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -892,10 +924,12 @@
 				18821DCD25D4D8D9007DE410 /* HikeGraph.swift in Sources */,
 				188DA33A25D0D9EC00C9E55A /* SuperSwiftUIDemoApp.swift in Sources */,
 				181BB58425D5172400CED81B /* SwiftUILabelView.swift in Sources */,
+				186DCFB025DE61450012E0CE /* Account+CoreDataClass.swift in Sources */,
 				185EFB7625DCFB03000DDB98 /* DailyScrum.swift in Sources */,
 				185EFB4525DCCD0F000DDB98 /* ProgressViews.swift in Sources */,
 				18C8B2B725D511980089A137 /* SwiftUITextView.swift in Sources */,
 				18F547D825D10620004CF2C7 /* DemoList.swift in Sources */,
+				186DCFB325DE61450012E0CE /* Class+CoreDataProperties.swift in Sources */,
 				185EFB3D25DCCCE2000DDB98 /* ShapeView.swift in Sources */,
 				18C7CE1825D185D900D6A7B7 /* ProfileSummary.swift in Sources */,
 				18C7CDB125D14E1A00D6A7B7 /* HomeTabView.swift in Sources */,
@@ -908,11 +942,13 @@
 				18C7CDEC25D1545B00D6A7B7 /* LandmarkDetail.swift in Sources */,
 				18C7CE0225D17DD500D6A7B7 /* ProfileHost.swift in Sources */,
 				185EFB0E25DCB297000DDB98 /* SwiftUIViewGallery.swift in Sources */,
+				186DCFB125DE61450012E0CE /* Account+CoreDataProperties.swift in Sources */,
 				185EFB5F25DCCDBD000DDB98 /* MapViews.swift in Sources */,
 				181BB57B25D514C300CED81B /* SwiftUIButtonView.swift in Sources */,
 				185EFB2125DCC698000DDB98 /* TextEditorView.swift in Sources */,
 				18F5483D25D12176004CF2C7 /* BadgeBackground.swift in Sources */,
 				18386AF725D21F9500E514ED /* PageControl.swift in Sources */,
+				186DCFB425DE61450012E0CE /* User+CoreDataClass.swift in Sources */,
 				18DC133925D12ECD0038C7BA /* CategoryHome.swift in Sources */,
 				18F7E44C25D2491900A3A06B /* FavoriteButton.swift in Sources */,
 				18F547DF25D10AFC004CF2C7 /* DemoDetailView.swift in Sources */,
@@ -926,12 +962,14 @@
 				18C7CE1F25D188D100D6A7B7 /* ProfileEditor.swift in Sources */,
 				18386AEF25D21F8B00E514ED /* PageViewController.swift in Sources */,
 				18821DC425D4D7F2007DE410 /* GraphCapsule.swift in Sources */,
+				186DCFB225DE61450012E0CE /* Class+CoreDataClass.swift in Sources */,
 				185EFB8525DCFF4D000DDB98 /* Color+Codable.swift in Sources */,
 				18F5484425D1219F004CF2C7 /* Badge.swift in Sources */,
 				18821DF125D501C9007DE410 /* HikeBadge.swift in Sources */,
 				18DC134925D136590038C7BA /* CategoryItem.swift in Sources */,
 				18C7CDEE25D1545B00D6A7B7 /* LandmarkRow.swift in Sources */,
 				18F547D125D1059E004CF2C7 /* DemoModel.swift in Sources */,
+				186DCF9F25DE60EF0012E0CE /* SuperSwiftUIDemoApp.xcdatamodeld in Sources */,
 				18F547CA25D10589004CF2C7 /* DemoCell.swift in Sources */,
 				181BB59225D528B200CED81B /* ColorPickerView.swift in Sources */,
 				18F5478B25D0EC4A004CF2C7 /* ModelData.swift in Sources */,
@@ -942,7 +980,9 @@
 				18F5479225D0EC5A004CF2C7 /* Landmark.swift in Sources */,
 				185EFB7D25DCFB80000DDB98 /* CardView.swift in Sources */,
 				185EFB3525DCCCD2000DDB98 /* ImageView.swift in Sources */,
+				186DCFBD25DE68290012E0CE /* CoreDataMainView.swift in Sources */,
 				18F7E47C25D27C0500A3A06B /* LandmarkWidget.intentdefinition in Sources */,
+				186DCFB525DE61450012E0CE /* User+CoreDataProperties.swift in Sources */,
 				18C7CE1125D17FBF00D6A7B7 /* Profile.swift in Sources */,
 				18F5483625D12142004CF2C7 /* RotatedBadgeSymbol.swift in Sources */,
 				18821DDB25D4E535007DE410 /* HikeView.swift in Sources */,
@@ -969,6 +1009,7 @@
 				181BB59325D528B200CED81B /* ColorPickerView.swift in Sources */,
 				18F5477725D0E25E004CF2C7 /* MapView.swift in Sources */,
 				18F7E40B25D23EB400A3A06B /* LandmarkDetail.swift in Sources */,
+				186DCFBE25DE68290012E0CE /* CoreDataMainView.swift in Sources */,
 				185EFB3625DCCCD2000DDB98 /* ImageView.swift in Sources */,
 				18821DB325D4D6B2007DE410 /* Hike.swift in Sources */,
 				18F7E42B25D2423B00A3A06B /* MacLandmarkList.swift in Sources */,
@@ -1459,6 +1500,7 @@
 		188DA30C25D0D9EA00C9E55A /* SuperSwiftUIDemoApp.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				186DCF9E25DE60380012E0CE /* coredata_v2.xcdatamodel */,
 				188DA30D25D0D9EA00C9E55A /* Shared.xcdatamodel */,
 			);
 			currentVersion = 188DA30D25D0D9EA00C9E55A /* Shared.xcdatamodel */;

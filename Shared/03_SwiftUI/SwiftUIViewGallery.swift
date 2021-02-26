@@ -9,7 +9,7 @@ import SwiftUI
 
 struct SwiftUIViewGallery: View {
     private var sections:[[String:[String]]] = [
-        ["View":["Text","Label","TextEditor","Image","Shape","ProgressView","Map","ColorPicker"]],
+        ["View":["Text","TextField","Label","TextEditor","Image","Shape","ProgressView","Map","ColorPicker"]],
         ["Layout":["Background","VStack","HStack","VStack","ZStack","LazyVStack","LazyHStack","LazyVGrid","LazyHGrid"]],
         ["Input":["Toggle","Button","TextField","Slider","Date Picker","Stepper","Tap","Geusture","OnChange"]],
         ["Container":["NavigationView","TabView","Group"]],
@@ -47,6 +47,8 @@ struct SwiftUIViewGallery: View {
         switch str {
         case "Text":
             return AnyView(SwiftUITextView())
+        case "TextField":
+            return AnyView(SwiftUITextFieldView())
         case "Label":
             return AnyView(SwiftUILabelView())
         case "Image":

@@ -34,6 +34,8 @@
 		18386B3D25D2311D00E514ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188DA31125D0D9EC00C9E55A /* Assets.xcassets */; };
 		18386B4425D231CD00E514ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188DA31125D0D9EC00C9E55A /* Assets.xcassets */; };
 		18386B5125D2323800E514ED /* AppDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F547F925D11B8E004CF2C7 /* AppDataStore.swift */; };
+		184F155E25E8877C009CB3B6 /* SwiftUITextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F155D25E8877C009CB3B6 /* SwiftUITextFieldView.swift */; };
+		184F155F25E8877C009CB3B6 /* SwiftUITextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F155D25E8877C009CB3B6 /* SwiftUITextFieldView.swift */; };
 		185EFAFE25DCAA01000DDB98 /* SwiftUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185EFAFD25DCAA01000DDB98 /* SwiftUIImageView.swift */; };
 		185EFB0E25DCB297000DDB98 /* SwiftUIViewGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185EFB0D25DCB297000DDB98 /* SwiftUIViewGallery.swift */; };
 		185EFB0F25DCB297000DDB98 /* SwiftUIViewGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185EFB0D25DCB297000DDB98 /* SwiftUIViewGallery.swift */; };
@@ -230,6 +232,7 @@
 		18386AEE25D21F8B00E514ED /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		18386AF625D21F9500E514ED /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 		18386B1B25D226AA00E514ED /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		184F155D25E8877C009CB3B6 /* SwiftUITextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITextFieldView.swift; sourceTree = "<group>"; };
 		185EFAFD25DCAA01000DDB98 /* SwiftUIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIImageView.swift; sourceTree = "<group>"; };
 		185EFB0D25DCB297000DDB98 /* SwiftUIViewGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewGallery.swift; sourceTree = "<group>"; };
 		185EFB2025DCC698000DDB98 /* TextEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorView.swift; sourceTree = "<group>"; };
@@ -381,6 +384,7 @@
 			children = (
 				181BB59125D528B200CED81B /* ColorPickerView.swift */,
 				18C8B2B625D511980089A137 /* SwiftUITextView.swift */,
+				184F155D25E8877C009CB3B6 /* SwiftUITextFieldView.swift */,
 				181BB58325D5172400CED81B /* SwiftUILabelView.swift */,
 				181BB57A25D514C300CED81B /* SwiftUIButtonView.swift */,
 				185EFAFD25DCAA01000DDB98 /* SwiftUIImageView.swift */,
@@ -975,6 +979,7 @@
 				18F5478B25D0EC4A004CF2C7 /* ModelData.swift in Sources */,
 				18F5482F25D1213B004CF2C7 /* BadgeSymbol.swift in Sources */,
 				18F5476F25D0E203004CF2C7 /* CircleImage.swift in Sources */,
+				184F155E25E8877C009CB3B6 /* SwiftUITextFieldView.swift in Sources */,
 				18386ADF25D2193000E514ED /* PageView.swift in Sources */,
 				18C7CDEA25D1545B00D6A7B7 /* LandmarkList.swift in Sources */,
 				18F5479225D0EC5A004CF2C7 /* Landmark.swift in Sources */,
@@ -1017,6 +1022,7 @@
 				188F86E225D23BD400A17C07 /* LandmarkCommands.swift in Sources */,
 				18C7CDEF25D1545B00D6A7B7 /* LandmarkRow.swift in Sources */,
 				181BB57325D513FB00CED81B /* SwiftUITextView.swift in Sources */,
+				184F155F25E8877C009CB3B6 /* SwiftUITextFieldView.swift in Sources */,
 				181BB57C25D514C300CED81B /* SwiftUIButtonView.swift in Sources */,
 				185EFB2225DCC698000DDB98 /* TextEditorView.swift in Sources */,
 				18F5478C25D0EC4A004CF2C7 /* ModelData.swift in Sources */,

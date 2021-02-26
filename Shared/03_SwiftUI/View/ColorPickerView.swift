@@ -15,7 +15,10 @@ struct ColorPickerView: View {
             ColorPicker("Set the background color", selection: $bgColor, supportsOpacity: false)
                 }
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(bgColor)
+            .background(bgColor)
+        
+     
+        
     }
 }
 

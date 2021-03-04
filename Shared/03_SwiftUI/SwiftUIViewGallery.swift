@@ -13,7 +13,7 @@ struct SwiftUIViewGallery: View {
         ["Layout":["Background","VStack","HStack","VStack","ZStack","LazyVStack","LazyHStack","LazyVGrid","LazyHGrid"]],
         ["Input":["Toggle","Button","TextField","Slider","Date Picker","Stepper","Tap","Geusture","OnChange"]],
         ["Container":["NavigationView","TabView","Group"]],
-        ["List":["List"]],
+        ["List":["List","Grid"]],
         ["Navigation":["Navigation"]]
     ]
     
@@ -63,6 +63,8 @@ struct SwiftUIViewGallery: View {
             return AnyView(MapViews())
         case "ColorPicker":
             return AnyView(ColorPickerView())
+        case "Grid":
+            return AnyView(SwiftUIGridView())
         default:
             return AnyView(innerView ?? AnyView(Text("View Not Found")))
         }

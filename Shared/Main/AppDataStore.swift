@@ -13,6 +13,8 @@ final class AppDataStore: ObservableObject{
     @Published var showFavoritesOnly = false
     @Published var landmarks: [LandMark] = load("landmarkData.json")
     @Published var profile = Profile.default
+    @Published var scrumData = ScrumData()
+
     var hikes: [Hike] = load("hikeData.json")
 
     var features:[LandMark]{
@@ -20,6 +22,7 @@ final class AppDataStore: ObservableObject{
             $0.isFeatured
         }
     }
+    
     
     var categories:[String:[LandMark]]{
         Dictionary(grouping: landmarks, by: {$0.category.rawValue})

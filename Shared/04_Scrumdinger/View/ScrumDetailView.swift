@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ScrumDetailView: View {
-    @Binding var model: DailyScrum
+    @State var model: DailyScrum
     @State private var data: DailyScrum.Data = DailyScrum.Data()
     @State private var isPresented = false
     
@@ -70,6 +70,6 @@ struct ScrumDetailView: View {
 
 struct ScrumDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        ScrumDetailView(model: .constant(DailyScrum.data.first!))
+        ScrumDetailView(model: AppDataStore().scrumData.scrums.first!)
     }
 }

@@ -9,8 +9,9 @@ import SwiftUI
 
 struct DemoDetailView: View {
     var demoModel: DemoModel
-    @State private var models = DailyScrum.data
     
+    @EnvironmentObject var appData: AppDataStore
+
     var body: some View {
         VStack{
             containedView()
@@ -26,7 +27,11 @@ struct DemoDetailView: View {
         case "SwiftUIGallery":
             return AnyView(SwiftUIViewGallery())
         case "ScrumdingerApp":
-            return AnyView(ScrumpMain(models: $models))
+            return AnyView(ScrumpMain(models: $appData.scrumData.scrums ,saveAction: {
+                appData.scrumData.save()
+            }).onAppear(perform: {
+                appData.scrumData.load()
+            }))
         default:
             return AnyView(Text("Not found yet"))
         

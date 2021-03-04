@@ -29,7 +29,6 @@ struct DemoList: View {
         }.onOpenURL(perform: { url in
             print(url)
         })
-//        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 

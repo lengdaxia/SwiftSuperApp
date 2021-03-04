@@ -69,6 +69,16 @@
 		186DCFB525DE61450012E0CE /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DCFAF25DE61450012E0CE /* User+CoreDataProperties.swift */; };
 		186DCFBD25DE68290012E0CE /* CoreDataMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DCFBC25DE68290012E0CE /* CoreDataMainView.swift */; };
 		186DCFBE25DE68290012E0CE /* CoreDataMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DCFBC25DE68290012E0CE /* CoreDataMainView.swift */; };
+		18781D8425F0D19100B46EB1 /* ScrumData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18781D8325F0D19100B46EB1 /* ScrumData.swift */; };
+		18781D8B25F0D35100B46EB1 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18781D8A25F0D35100B46EB1 /* History.swift */; };
+		18781D9225F0D8BB00B46EB1 /* ScrumData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18781D8325F0D19100B46EB1 /* ScrumData.swift */; };
+		18781D9825F0D8BC00B46EB1 /* ScrumData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18781D8325F0D19100B46EB1 /* ScrumData.swift */; };
+		18781D9925F0D8C500B46EB1 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185EFB7525DCFB03000DDB98 /* DailyScrum.swift */; };
+		18781D9F25F0D8C600B46EB1 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185EFB7525DCFB03000DDB98 /* DailyScrum.swift */; };
+		18781DA025F0D8CD00B46EB1 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18781D8A25F0D35100B46EB1 /* History.swift */; };
+		18781DA625F0D8CE00B46EB1 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18781D8A25F0D35100B46EB1 /* History.swift */; };
+		18781DA725F0D8D900B46EB1 /* Color+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185EFB8425DCFF4D000DDB98 /* Color+Codable.swift */; };
+		18781DAD25F0D8DA00B46EB1 /* Color+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185EFB8425DCFF4D000DDB98 /* Color+Codable.swift */; };
 		18821DB225D4D6B2007DE410 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18821DB125D4D6B2007DE410 /* Hike.swift */; };
 		18821DB325D4D6B2007DE410 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18821DB125D4D6B2007DE410 /* Hike.swift */; };
 		18821DB425D4D6B2007DE410 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18821DB125D4D6B2007DE410 /* Hike.swift */; };
@@ -95,6 +105,8 @@
 		188DA34125D0D9EC00C9E55A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188DA31125D0D9EC00C9E55A /* Assets.xcassets */; };
 		188F86C525D23A7B00A17C07 /* MacContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188F86C425D23A7400A17C07 /* MacContentView.swift */; };
 		188F86E225D23BD400A17C07 /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188F86D425D23B4100A17C07 /* LandmarkCommands.swift */; };
+		18BC153625EC933D003FFACC /* SwiftUIGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BC153525EC933D003FFACC /* SwiftUIGridView.swift */; };
+		18BC153725EC933D003FFACC /* SwiftUIGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BC153525EC933D003FFACC /* SwiftUIGridView.swift */; };
 		18C7CDB125D14E1A00D6A7B7 /* HomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C7CDB025D14E1A00D6A7B7 /* HomeTabView.swift */; };
 		18C7CDEA25D1545B00D6A7B7 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C7CDE725D1545B00D6A7B7 /* LandmarkList.swift */; };
 		18C7CDEC25D1545B00D6A7B7 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C7CDE825D1545B00D6A7B7 /* LandmarkDetail.swift */; };
@@ -259,6 +271,8 @@
 		186DCFAE25DE61450012E0CE /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
 		186DCFAF25DE61450012E0CE /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		186DCFBC25DE68290012E0CE /* CoreDataMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataMainView.swift; sourceTree = "<group>"; };
+		18781D8325F0D19100B46EB1 /* ScrumData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumData.swift; sourceTree = "<group>"; };
+		18781D8A25F0D35100B46EB1 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 		18821DB125D4D6B2007DE410 /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
 		18821DBA25D4D787007DE410 /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
 		18821DC325D4D7F2007DE410 /* GraphCapsule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphCapsule.swift; sourceTree = "<group>"; };
@@ -279,6 +293,7 @@
 		188F86C425D23A7400A17C07 /* MacContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacContentView.swift; sourceTree = "<group>"; };
 		188F86CC25D23B2100A17C07 /* LandmarkSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkSettings.swift; sourceTree = "<group>"; };
 		188F86D425D23B4100A17C07 /* LandmarkCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkCommands.swift; sourceTree = "<group>"; };
+		18BC153525EC933D003FFACC /* SwiftUIGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIGridView.swift; sourceTree = "<group>"; };
 		18C7CDB025D14E1A00D6A7B7 /* HomeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabView.swift; sourceTree = "<group>"; };
 		18C7CDE725D1545B00D6A7B7 /* LandmarkList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		18C7CDE825D1545B00D6A7B7 /* LandmarkDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
@@ -393,6 +408,7 @@
 				185EFB3C25DCCCE2000DDB98 /* ShapeView.swift */,
 				185EFB4425DCCD0F000DDB98 /* ProgressViews.swift */,
 				185EFB5E25DCCDBD000DDB98 /* MapViews.swift */,
+				18BC153525EC933D003FFACC /* SwiftUIGridView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -414,8 +430,8 @@
 		185EFB6625DCF7B1000DDB98 /* 04_Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
-				185EFB7425DCFAEC000DDB98 /* Model */,
 				185EFB6C25DCF866000DDB98 /* View */,
+				185EFB7425DCFAEC000DDB98 /* Model */,
 			);
 			path = 04_Scrumdinger;
 			sourceTree = "<group>";
@@ -435,8 +451,10 @@
 		185EFB7425DCFAEC000DDB98 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				185EFB8425DCFF4D000DDB98 /* Color+Codable.swift */,
+				18781D8325F0D19100B46EB1 /* ScrumData.swift */,
 				185EFB7525DCFB03000DDB98 /* DailyScrum.swift */,
+				185EFB8425DCFF4D000DDB98 /* Color+Codable.swift */,
+				18781D8A25F0D35100B46EB1 /* History.swift */,
 				185EFBA925DD1222000DDB98 /* AVPlayer+Ding.swift */,
 				185EFBAA25DD1222000DDB98 /* ScrumTimer.swift */,
 				185EFBB225DD122D000DDB98 /* ding.wav */,
@@ -928,6 +946,7 @@
 				18821DCD25D4D8D9007DE410 /* HikeGraph.swift in Sources */,
 				188DA33A25D0D9EC00C9E55A /* SuperSwiftUIDemoApp.swift in Sources */,
 				181BB58425D5172400CED81B /* SwiftUILabelView.swift in Sources */,
+				18BC153625EC933D003FFACC /* SwiftUIGridView.swift in Sources */,
 				186DCFB025DE61450012E0CE /* Account+CoreDataClass.swift in Sources */,
 				185EFB7625DCFB03000DDB98 /* DailyScrum.swift in Sources */,
 				185EFB4525DCCD0F000DDB98 /* ProgressViews.swift in Sources */,
@@ -952,6 +971,7 @@
 				185EFB2125DCC698000DDB98 /* TextEditorView.swift in Sources */,
 				18F5483D25D12176004CF2C7 /* BadgeBackground.swift in Sources */,
 				18386AF725D21F9500E514ED /* PageControl.swift in Sources */,
+				18781D8425F0D19100B46EB1 /* ScrumData.swift in Sources */,
 				186DCFB425DE61450012E0CE /* User+CoreDataClass.swift in Sources */,
 				18DC133925D12ECD0038C7BA /* CategoryHome.swift in Sources */,
 				18F7E44C25D2491900A3A06B /* FavoriteButton.swift in Sources */,
@@ -980,6 +1000,7 @@
 				18F5482F25D1213B004CF2C7 /* BadgeSymbol.swift in Sources */,
 				18F5476F25D0E203004CF2C7 /* CircleImage.swift in Sources */,
 				184F155E25E8877C009CB3B6 /* SwiftUITextFieldView.swift in Sources */,
+				18781D8B25F0D35100B46EB1 /* History.swift in Sources */,
 				18386ADF25D2193000E514ED /* PageView.swift in Sources */,
 				18C7CDEA25D1545B00D6A7B7 /* LandmarkList.swift in Sources */,
 				18F5479225D0EC5A004CF2C7 /* Landmark.swift in Sources */,
@@ -998,6 +1019,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18781DA725F0D8D900B46EB1 /* Color+Codable.swift in Sources */,
 				188DA33B25D0D9EC00C9E55A /* SuperSwiftUIDemoApp.swift in Sources */,
 				18821DCE25D4D8D9007DE410 /* HikeGraph.swift in Sources */,
 				18F7E44D25D2491900A3A06B /* FavoriteButton.swift in Sources */,
@@ -1013,6 +1035,7 @@
 				185EFB3E25DCCCE2000DDB98 /* ShapeView.swift in Sources */,
 				181BB59325D528B200CED81B /* ColorPickerView.swift in Sources */,
 				18F5477725D0E25E004CF2C7 /* MapView.swift in Sources */,
+				18781D9925F0D8C500B46EB1 /* DailyScrum.swift in Sources */,
 				18F7E40B25D23EB400A3A06B /* LandmarkDetail.swift in Sources */,
 				186DCFBE25DE68290012E0CE /* CoreDataMainView.swift in Sources */,
 				185EFB3625DCCCD2000DDB98 /* ImageView.swift in Sources */,
@@ -1021,12 +1044,15 @@
 				18F5484525D1219F004CF2C7 /* Badge.swift in Sources */,
 				188F86E225D23BD400A17C07 /* LandmarkCommands.swift in Sources */,
 				18C7CDEF25D1545B00D6A7B7 /* LandmarkRow.swift in Sources */,
+				18BC153725EC933D003FFACC /* SwiftUIGridView.swift in Sources */,
 				181BB57325D513FB00CED81B /* SwiftUITextView.swift in Sources */,
 				184F155F25E8877C009CB3B6 /* SwiftUITextFieldView.swift in Sources */,
 				181BB57C25D514C300CED81B /* SwiftUIButtonView.swift in Sources */,
 				185EFB2225DCC698000DDB98 /* TextEditorView.swift in Sources */,
 				18F5478C25D0EC4A004CF2C7 /* ModelData.swift in Sources */,
+				18781DA025F0D8CD00B46EB1 /* History.swift in Sources */,
 				18F5483025D1213B004CF2C7 /* BadgeSymbol.swift in Sources */,
+				18781D9225F0D8BB00B46EB1 /* ScrumData.swift in Sources */,
 				18F5477025D0E203004CF2C7 /* CircleImage.swift in Sources */,
 				1862833825DBAE8900FDFA36 /* AddLandmarkView.swift in Sources */,
 				185EFB6025DCCDBD000DDB98 /* MapViews.swift in Sources */,
@@ -1052,6 +1078,7 @@
 				18386B5125D2323800E514ED /* AppDataStore.swift in Sources */,
 				181BB57D25D514C300CED81B /* SwiftUIButtonView.swift in Sources */,
 				18C7CE4225D18E4F00D6A7B7 /* ComplicationController.swift in Sources */,
+				18781DA625F0D8CE00B46EB1 /* History.swift in Sources */,
 				18386B1C25D226AA00E514ED /* LandmarkDetail.swift in Sources */,
 				18821DE625D4E9DE007DE410 /* HikeDetail.swift in Sources */,
 				18386B0225D2262100E514ED /* Profile.swift in Sources */,
@@ -1059,11 +1086,14 @@
 				18C7CE3A25D18E4F00D6A7B7 /* SuperSwiftUIDemoAppApp.swift in Sources */,
 				18386B0525D2262100E514ED /* CircleImage.swift in Sources */,
 				18386B0325D2262100E514ED /* ModelData.swift in Sources */,
+				18781D9F25F0D8C600B46EB1 /* DailyScrum.swift in Sources */,
 				18821DC625D4D7F2007DE410 /* GraphCapsule.swift in Sources */,
 				18C7CE4025D18E4F00D6A7B7 /* NotificationView.swift in Sources */,
 				18386B0625D2262100E514ED /* LandmarkRow.swift in Sources */,
 				18386B0125D2262100E514ED /* Landmark.swift in Sources */,
 				18821DDD25D4E535007DE410 /* HikeView.swift in Sources */,
+				18781D9825F0D8BC00B46EB1 /* ScrumData.swift in Sources */,
+				18781DAD25F0D8DA00B46EB1 /* Color+Codable.swift in Sources */,
 				18821DCF25D4D8D9007DE410 /* HikeGraph.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
